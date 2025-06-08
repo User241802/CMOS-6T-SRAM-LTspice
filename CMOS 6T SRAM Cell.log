@@ -1,0 +1,36 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Dinesh\OneDrive\Documents\LTspice\CMOS 6T SRAM Cell.net
+Start Time: Mon Jun  9 02:27:53 2025
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n001 is floating.
+WARNING: Node n002 is floating.
+WARNING: Node nc_01 is floating.
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.420 seconds.
+
+Files loaded:
+C:\Users\Dinesh\OneDrive\Documents\LTspice\CMOS 6T SRAM Cell.net
+C:\Users\Dinesh\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\Dinesh\OneDrive\Documents\LTspice\tsmc018.lib
+
