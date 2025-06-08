@@ -21,11 +21,11 @@ The heart of the design consists of six transistors implementing the standard 6T
 
 ### Beta Ratio Design Considerations
 
-The transistor sizing follows critical beta ratio principles to ensure stable operation[12]. The beta ratio (β) is defined as the ratio of pull-down transistor conductance to access transistor conductance[12]:
+The transistor sizing follows critical beta ratio principles to ensure stable operation. The beta ratio (β) is defined as the ratio of pull-down transistor conductance to access transistor conductance:
 
 **β = (W_pulldown / L) / (W_access / L) = 3μm / 1.5μm = 2.0**
 
-This 2:1 ratio ensures adequate read stability while maintaining reasonable write capability[12]. Industry standards typically require beta ratios between 1.8 to 3.0 for reliable operation.
+This 2:1 ratio ensures adequate read stability while maintaining reasonable write capability. Industry standards typically require beta ratios between 1.8 to 3.0 for reliable operation.
 
 ### Precharge Circuitry (M9, M10)
 
