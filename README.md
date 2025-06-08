@@ -4,13 +4,13 @@ This repository contains a comprehensive implementation of a 6-transistor CMOS S
 
 ## Overview
 
-Static Random Access Memory (SRAM) uses latching circuitry to store each bit of data without requiring constant refresh operations, making it faster and more reliable than Dynamic RAM (DRAM)[1]. The 6T SRAM cell consists of two cross-coupled CMOS inverters forming a bistable latch, plus two access transistors that provide controlled access to the stored data.
+Static Random Access Memory (SRAM) uses latching circuitry to store each bit of data without requiring constant refresh operations, making it faster and more reliable than Dynamic RAM (DRAM). The 6T SRAM cell consists of two cross-coupled CMOS inverters forming a bistable latch, plus two access transistors that provide controlled access to the stored data.
 
 ## Circuit Architecture
 
 ### 6T SRAM Cell Core (M1-M6)
 
-The heart of the design consists of six transistors implementing the standard 6T SRAM topology[4]:
+The heart of the design consists of six transistors implementing the standard 6T SRAM topology:
 
 **Cross-Coupled Inverters (Storage Elements):**
 - **M1, M3**: Pull-down NMOS transistors (W=3μm, L=180nm)
